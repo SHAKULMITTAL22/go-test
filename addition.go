@@ -1,16 +1,10 @@
-package main
-
 func Mervin1(a int) string {
-	var result string // Declare a variable to hold the return value
 
 	if a == 1 {
-		result = "x"
+		return "x"
 	} else if a == 2 {
-		result = "y"
-	} else {
-		result = "z"
+		return "y"
 	}
 
-	return result // Return the variable
+	return "z"
 }
-
