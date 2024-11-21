@@ -1,3 +1,5 @@
+package main
+
 func Mervin1(a int) string {
 
 	if a == 1 {
